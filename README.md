@@ -67,7 +67,7 @@ fork to your machine using one of the commands below, depending on your OS.
 
 > [!NOTE]
 > Your fork's URL will be something like this:
-> `https://github.com/<your_github_username>/kickstart.nvim.git`
+> `https://github.com/mrpbennett/kickstart.nvim.git`
 
 You likely want to remove `nvim-pack-lock.json` from your fork's `.gitignore`
 file too - it's ignored in the kickstart repo to make maintenance easier, but
@@ -82,7 +82,7 @@ it's recommended to track it in version control (see `:help vim.pack-lockfile`).
 <details><summary> Linux and Mac </summary>
 
 ```sh
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/mrpbennett/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/ksnvim
 ```
 
 </details>
